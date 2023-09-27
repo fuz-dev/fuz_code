@@ -17,7 +17,7 @@ import '@fuz.dev/fuz_code/prism.css'; // add this`}}),E=new st({props:{name:"Cod
 	import Code from '@fuz.dev/fuz_code/Code.svelte';
 <\/script>
 
-<Code content="<header>hello world</header>" />`}}),L=new Y({props:{content:"<header>hello world</header>"}}),xe=new st({props:{name:"Code"}}),Fe=new Y({props:{content:'<Code content="<scr..."'}}),Ae=new Y({props:{content:`<script>
+<Code content="<header>hello world</header>" />`}}),L=new Y({props:{content:"<header>hello world</header>"}}),xe=new st({props:{name:"Code"}}),Fe=new Y({props:{content:'<Code content="<scr..." />'}}),Ae=new Y({props:{content:`<script>
 	import Card from '@fuz.dev/fuz-library/Card.svelte';
 	console.log('hello Card', Card);
 <\/script>
