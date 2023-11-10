@@ -32,8 +32,8 @@
     "@changesets/changelog-git": "^0.1.14",
     "@feltjs/eslint-config": "^0.4.1",
     "@fuz.dev/fuz": "^0.79.3",
-    "@fuz.dev/fuz_library": "^0.20.0",
-    "@grogarden/gro": "^0.101.0",
+    "@fuz.dev/fuz_library": "^0.21.0",
+    "@grogarden/gro": "^0.102.0",
     "@grogarden/util": "^0.16.0",
     "@sveltejs/adapter-static": "^2.0.3",
     "@sveltejs/kit": "^1.27.3",
@@ -94,38 +94,6 @@
     "./remove_prism_css_vite_plugin.js": {
       "default": "./dist/remove_prism_css_vite_plugin.js",
       "types": "./dist/remove_prism_css_vite_plugin.d.ts"
-    }
-  },
-  "modules": {
-    "./Code.svelte": {
-      "path": "Code.svelte",
-      "declarations": []
-    },
-    "./package.gen.js": {
-      "path": "package.gen.ts",
-      "declarations": []
-    },
-    "./package.js": {
-      "path": "package.ts",
-      "declarations": [
-        {
-          "name": "package_json",
-          "kind": "variable"
-        }
-      ]
-    },
-    "./prism.css": {
-      "path": "prism.css",
-      "declarations": []
-    },
-    "./remove_prism_css_vite_plugin.js": {
-      "path": "remove_prism_css_vite_plugin.ts",
-      "declarations": [
-        {
-          "name": "remove_prism_css",
-          "kind": "function"
-        }
-      ]
     }
   }
 }
