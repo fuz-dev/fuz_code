@@ -1,27 +1,10 @@
 {
   "name": "@fuz.dev/fuz_code",
-  "version": "0.4.3",
+  "version": "0.5.0",
   "modules": {
     "./Code.svelte": {
       "path": "Code.svelte",
       "declarations": []
-    },
-    "./package.gen.js": {
-      "path": "package.gen.ts",
-      "declarations": []
-    },
-    "./package.js": {
-      "path": "package.ts",
-      "declarations": [
-        {
-          "name": "package_json",
-          "kind": "variable"
-        },
-        {
-          "name": "src_json",
-          "kind": "variable"
-        }
-      ]
     },
     "./prism.css": {
       "path": "prism.css",
